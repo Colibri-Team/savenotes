@@ -8,7 +8,8 @@ const session = require('express-session')
 const mongoose = require('mongoose');
 const MongoStore = require('connect-mongo')(session)
 const methodOverride = require('method-override');
-
+const dotenv = require('dotenv');
+dotenv.config({path:'./config/keys.env'})
 const app = express();
 
 
