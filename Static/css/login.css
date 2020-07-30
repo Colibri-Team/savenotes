@@ -1,0 +1,152 @@
+html,
+body,main {
+  height: 100%;
+  
+}
+nav {
+  box-shadow: none;
+}
+.loginBg {
+  background-image: url("../images/back2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.text-about {
+  font-size: 22px;
+  /* font-size: 1.5rem; */
+  text-align: bottom;
+}
+p {
+  opacity: 0.4;
+}
+img {
+  width: 90%;
+}
+
+.row.py-5 {
+  height: 20%;
+}
+.left-item {
+  transform: translateX(-80rem);
+}
+
+.right-item {
+  transform: translateX(80rem);
+}
+.to-zero {
+  transform: translate(0,0)!important;
+  opacity: 1!important;
+}
+h2,p,.image-about,.p{
+    transition-duration: .7s;
+    transition-timing-function: ease-out;
+
+}
+
+p{
+    transition-delay: .18s;
+}
+.p{
+    transition-delay: .22s;
+
+}
+.google-auth{
+  background-image: url(../images/google.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid rgba(190, 190, 190, 0.774);
+  padding-right: 15px;
+  width: 30px;
+}
+.border-secondary-muted{
+  border: 1px solid rgb(190, 190, 190);
+}
+
+.hr{
+  height: 1px;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.096);
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+footer{
+  background-color: rgb(46, 46, 46);
+  overflow: hidden;
+  
+}
+a:hover{
+  opacity: .85;
+}
+.social{
+  opacity: .5;
+}
+.social:hover{
+  
+  opacity: 1;
+}
+.email{
+  width: 300px;
+  height: 37px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 25px;
+  padding: 7px;
+  font-family: "Operator Mono A";
+  /* opacity: 0; */
+  transform: translateY(10rem);
+  /* transition-duration: 1s; */
+  /* animation: mail 5s linear 1; */
+
+
+}
+
+.copied{
+  background-color: rgb(99, 232, 206);
+  /* height: 80px;
+  width: 60px; */
+  border-radius: 30px;
+  padding: 5px 6px;
+  /* color: white; */
+  
+}
+.email-text{
+  padding: 5px;
+  font-weight: bold;
+}
+.navbar-brand{
+  font-size: 25px;
+  padding-bottom: 2px!important;
+}
+.navbar-brand img{
+  width: 30px;
+  /* margin-top:-1px */
+}
+h3{
+  margin-bottom: 0;
+}
+.site-link{
+  font-size: 20px;
+}
+.card{
+  background-color: rgba(247, 247, 240, 0.603);
+  border-radius: 0;
+  border: none;
+  /* font-size: 7rem; */
+}
+
+.mail-clicked{
+  animation: mail 4s ease-out 1;
+}
+@keyframes mail{
+  0%{transform: translateY(10rem);}
+  25%{transform: translateY(0);}
+  85%{transform: translateY(0);}
+  100%{transform: translateY(10rem);}
+}
