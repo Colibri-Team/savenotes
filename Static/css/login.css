@@ -104,7 +104,7 @@ a:hover{
   padding: 7px;
   font-family: "Operator Mono A";
   /* opacity: 0; */
-  transform: translateY(10rem);
+  transform: translateY(20rem);
   /* transition-duration: 1s; */
   /* animation: mail 5s linear 1; */
 
@@ -138,10 +138,11 @@ h3{
 .site-navigation{
   font-size: 20px;
 }
-.card{
+.login-card{
   background-color: rgba(247, 247, 240, 0.603);
   border-radius: 0;
   border: none;
+  margin-top: 45%;
   /* font-size: 7rem; */
 }
 
@@ -149,8 +150,8 @@ h3{
   animation: mail 4s ease-out 1;
 }
 @keyframes mail{
-  0%{transform: translateY(10rem);}
+  0%{transform: translateY(20rem);}
   25%{transform: translateY(0);}
   85%{transform: translateY(0);}
-  100%{transform: translateY(10rem);}
+  100%{transform: translateY(20rem);}
 }
