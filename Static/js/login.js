@@ -216,9 +216,7 @@ document.querySelector("#mailto").addEventListener("click", () => {
   }, 4000);
   copyToClipboard("mynotes.techsup@gmail.com");
 });
-document.querySelector("#mailto").addEventListener("mouseleave", () => {
-  document.querySelector(".email").classList.remove("to-zero");
-});
+
 
 // Copies the email variable to clipboard
 function copyToClipboard(text) {

@@ -104,9 +104,10 @@ a:hover{
   padding: 7px;
   font-family: "Operator Mono A";
   /* opacity: 0; */
-  transform: translateY(20rem);
+  transform: translateY(15rem);
   /* transition-duration: 1s; */
   /* animation: mail 5s linear 1; */
+  z-index: 3;
 
 
 }
@@ -150,8 +151,27 @@ h3{
   animation: mail 4s ease-out 1;
 }
 @keyframes mail{
-  0%{transform: translateY(20rem);}
+  0%{transform: translateY(15rem);}
   25%{transform: translateY(0);}
   85%{transform: translateY(0);}
-  100%{transform: translateY(20rem);}
+  100%{transform: translateY(15rem);}
+}
+@keyframes mail-phone{
+  0%{transform: translate(100px,15rem);}
+  25%{transform: translate(100px,0);}
+  85%{transform: translate(100px,0);}
+  100%{transform: translate(100px,15rem);}
+}
+
+@media only screen and (max-width: 410px){
+  
+.mail-clicked{
+  animation: mail-phone 4s ease-out 1;
+
+}
+.email{
+
+  transform: translate(100px,15rem);
+}
+
 }

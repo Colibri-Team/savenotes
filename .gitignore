@@ -1,6 +1,6 @@
 node_modules
 config/keys.env
-Static/.DS_Store
 .DS_Store
 Static/css/.DS_Store
 Static/js/.DS_Store
+Static/.DS_Store
